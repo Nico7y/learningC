@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int iNumerosPares;
+    printf("Insira um numero aleatório: ");
+    scanf("%d", &iNumerosPares);
+    if (iNumerosPares %2 == 0){
+        printf("O numero que você digitou é um numero par %d\n", iNumerosPares);
+    } else{
+        printf("O numero que você digitou é um numero impar %d\n", iNumerosPares);
+    }
+    return 0;
+}

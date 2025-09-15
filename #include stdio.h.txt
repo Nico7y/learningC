@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include<stdlib.h>
+int main() {
+	float numero1, numero2, media;
+	printf("Digite um numero inteiro: \n");
+	scanf("%f", &numero1);
+	printf("Digite o segundo numero inteiro: \n");
+	scanf("%f", &numero2);
+	media = (numero1 + numero2 / 2);
+	printf("A soma dos numeros inteiros C): %f\n", media);
+	return 0;

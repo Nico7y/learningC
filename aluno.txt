@@ -1,0 +1,73 @@
+
+#include <stdio.h>
+#include <string.h>
+struct Aluno {
+    int nota1;
+    int nota2;
+    
+}
+int main() {
+    
+    struct Aluno tNotas; //registra num espaço de memoria variavel do tipo Aluno com o nome tnotas
+    
+    tNotas.nota1 = 2; //adiciona dentro do espaço de memoria do tnotas, o valor do nota1.
+    tNotas.nota2 = 3;
+    
+
+printf("Digite a 1° nota do aluno: %d\n", tNotas.nota1);
+printf("Digite a 2° nota do aluno: %d\n", tNotas.nota2);
+
+scanf("%d", &nota1);
+scanf("%d", &nota2);
+float media = (nota1+nota2)/2;
+printf("Professor digitou: %d\n", nota1);
+printf("Professor digitou: %d\n", nota2);
+printf("A media de notas do aluno é %f\n", media);    
+printf("%f", &media);
+
+
+return 0;
+}
+////////////////
+struct Aluno {
+    int nota1;
+    int nota2;
+    };
+
+int main() {
+    
+    struct Aluno tAluno;
+    
+    tAluno.nota1 = 4;
+    tAluno.nota2 = 5;
+
+    printf("Nota 1 do aluno: %d\n", tAluno.nota1);
+    printf("Nota 2 do aluno: %d\n", tAluno.nota2);
+    
+    printf("Ponteiro da nota 1: %p\n", &(tAluno.nota1));
+    printf("Ponteiro do aluno: %p\n", &tAluno);
+
+return 0;
+}
+//////////////////////////////
+#include <stdio.h>
+#include <string.h>
+    int main() {
+    int nota1;
+    int nota2;
+    float media=nota1+nota2/2;
+
+printf("Digite a 1° nota do aluno: %d\n", nota1);
+printf("Digite a 2° nota do aluno: %d\n", nota2);
+printf("A média de notas do aluno é: %f\n", media);
+
+scanf("%d", &nota1);
+scanf("%d", &nota2);
+scanf("%f", &media);
+
+printf("Professor digitou: %d\n", nota1);
+printf("Professor digitou: %d\n", nota2);
+printf("A media de notas do aluno é %f\n", media);    
+
+return 0;
+}
